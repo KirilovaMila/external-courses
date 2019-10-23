@@ -1,0 +1,44 @@
+
+  div {
+    width: 500px;	
+    height: 50px; 
+    margin: 20px;
+  }
+  
+  .first {
+    background-color: red; 
+     border: 1px solid;
+   }
+  
+   .second {
+    background-color: blueviolet;
+    border-radius: 10px;
+    outline: 2px dashed rgb(75, 206, 14);
+    border: 3px solid #fff; 
+   }
+
+   .third {
+    background: thistle; 
+    display: inline-block;
+   }
+   .third:hover {
+    outline: 2px solid rgb(41, 14, 199); 
+   }
+  
+   .fourth {
+    background-color: green;
+    box-shadow: 0 0 0 5px yellowgreen, 
+                0 0 0 10px yellow;
+   }
+   
+   .fifth {
+    width: 100%;
+    background: linear-gradient(to right, red, purple);
+    border: 3px solid;
+    margin: 0px;
+   }
+   .helper {
+     position: absolute;
+     background: linear-gradient(to right, yellow, rgb(57, 228, 240));
+     padding: 5px;
+   }
