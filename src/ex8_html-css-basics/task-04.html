@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>HTML Basics</title>
+    <link href="task-04.css" rel="stylesheet" type="text/css">
+    <style>
+        pre {
+            background-image: url(https://cdn.pixabay.com/photo/2018/03/21/10/01/desktop-3246124__340.jpg);
+            width: 400px;
+            height: 80px;
+        }
+
+        #textArea {
+            height: 20em;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>HTML Basics</h1>
+    <h2>Lists</h2>
+
+    <h4>Ordered list</h4>
+    <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+        <li>fourth item</li>
+        <li>fifth item</li>
+    </ol>
+    <h4>Unordered list</h4>
+    <ul class="coloredList">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+    <div style="background-color:rgb(4, 134, 4)">
+        <h4>Description List</h4>
+        <dl>
+            <dt>Name</dt>
+            <dd>Godzilla</dd>
+            <dt>Born</dt>
+            <dd>1952</dd>
+            <dt>Birthplace</dt>
+            <dd>Japan</dd>
+            <dt>Color</dt>
+            <dd>Green</dd>
+        </dl>
+        <br style="height: 11vh;">
+        <h4 style  = "height: 2vw;">Nested List</h4>
+        <ul class="nested"  style = "width: 20%;">
+            <li>List item one</li>
+            <li>List item two with subitems:
+                <ul>
+                    <li>Subitem 1
+                        <ul>
+                            <li>SubSubitem 1</li>
+                            <li>SubSubitem 2</li>
+                        </ul>
+                    </li>
+                    <li>SubSubitem 2</li>
+                </ul>
+            <li>Final list item</li>
+        </ul>
+
+    </div>
+
+    <h4>List with Links</h4>
+    <ul>
+        <li> <a href="">Home</a> </li>
+        <li> <a href="">News</a> </li>
+        <li> <a href="">Contact</a> </li>
+        <li> <a href="">About</a> </li>
+    </ul>
+    <hr>
+    <h2>Paragraphs</h2>
+    <p id="textArea">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique ante quis molestie condimentum.
+        Curabitur risus neque, faucibus vel sodales sit amet, aliquam in enim. Vestibulum rutrum mattis lorem a laoreet.
+        Cras consectetur massa vitae risus ornare maximus. Integer id turpis tellus. Aenean pulvinar dolor a congue
+        aliquet. Proin molestie blandit enim, eu pretium lacus egestas sit amet. Nulla sed ultrices massa.
+        Nam dictum aliquam vehicula.<br> <br>
+        Fusce blandit tellus convallis tortor gravida, id molestie quam tempus. <br>
+        Phasellus varius enim ac feugiat pulvinar.<br> Proin massa lorem, vehicula ac justo a, malesuada feugiat nunc.
+        <br>
+        Aliquam ornare nibh sit amet arcu hendrerit, eu tincidunt diam consectetur.<br>
+        In pharetra bibendum consequat.<br>
+        Maecenas egestas orci vel sem consectetur dapibus.<br>
+        Nam eget hendrerit risus, sit amet rhoncus mauris.<br>
+
+        Sed tempor ullamcorper nisi.<br> Donec tortor mauris, fermentum vel porttitor eget, feugiat eu turpis.<br>
+        Ut tincidunt ultrices ipsum eget ornare.
+
+    </p>
+    <hr>
+    <h2>Tables</h2>
+    <table>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Image</h2>
+    <img src="https://get.wallhere.com/photo/1680x1050-px-animals-cats-kittens-1644797.jpg"  alt = "nice cat" width=300>
+    <hr>
+    <h2>Pre tag</h2>
+    <pre>
+if (time = 20) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+    </pre>
+</body>
+
+
+</html>
