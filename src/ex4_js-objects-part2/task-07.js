@@ -1,9 +1,8 @@
 function cutString(str, n) {
     if (str.length > n) {
-        Newstr = str.substr(0, n - 1) + '…';
+        cuttingStr = str.substr(0, n - 1) + '…';
     }
-
-    return Newstr
+    return cuttingStr
 }
 
 module.exports = cutString;

@@ -1,6 +1,5 @@
 function deleteSpace(str) {
-    Newstr = str.replace(/(^[\s]+|[\s]+$)/g, '');
-    return Newstr
+    return str.trim()
 }
 
 module.exports = deleteSpace;

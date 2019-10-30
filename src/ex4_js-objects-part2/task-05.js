@@ -1,8 +1,5 @@
 function findSubstring(str, substr) {
-    if (str.match(substr)) {
-        return true
-    }
-    return false
+    return Boolean(str.match(substr))
 }
 
 module.exports = findSubstring;
