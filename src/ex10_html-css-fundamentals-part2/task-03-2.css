@@ -1,0 +1,8 @@
+td {
+    padding: 15px;
+    border: 2px solid white;
+}
+
+tbody tr:hover {
+    background-color: rgb(227,230,234);
+}

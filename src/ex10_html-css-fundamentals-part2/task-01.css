@@ -1,0 +1,17 @@
+.round {
+    border-radius: 50%; 
+    border: 3px solid rgb(214, 86, 231);
+    
+   }
+
+   img{
+    width:300px;
+    max-height:300px;
+  }
+  
+  .sound{
+    width:300px;
+    height: 300px;
+    -webkit-mask-image: url(https://avatanplus.com/files/resources/mid/574e663c1ffa01550a3f5ae3.png);
+    -webkit-mask-size:300px;
+  }
