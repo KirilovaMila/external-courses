@@ -1,0 +1,25 @@
+ol {
+    background: cornflowerblue;
+    font-family: monospace;
+}
+
+.coloredList {
+    background: #DC143C;
+    font-family: Times New Roman;
+}
+
+.nested {
+    background: rgb(64, 88, 207);
+}
+
+table {
+    background: rgba(22, 218, 38, 0.726);
+    width: 20rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+}
