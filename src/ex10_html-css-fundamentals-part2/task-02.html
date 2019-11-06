@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="task-02.css" rel="stylesheet" type="text/css">
+    <title>Personal data</title>
+</head>
+
+<body>
+    <form method="GET" action="http://httpbin.org/get">
+        <fieldset>
+            <legend>Personal data</legend>
+            <p> <label>Surname</label> <input type="text"> </p>
+            <p> <label>First name</label> <input type="text"> </p>
+            <p> <label>Middle name</label> <input type="text"> </p>
+            <p> <label>You are</label> <input type="radio" name="gender" value="male"> male
+                <input type="radio" name="gender" value="female"> female </p>
+            <p> <label>Country of Residence</label>
+                <select name="country">
+                    <option value="Russia">Russia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="USA">USA</option>
+                </select>
+            </p>
+            <p><label>City</label> <input type="checkbox" name="city" value="Ryazan"> Ryazan
+                <input type="checkbox" name="city" value="Moscow"> Moscow </p>
+
+            <p><label>Photography </label><input type="file"> </p>
+            <hr>
+            <p><label>Title</label>
+                <select name="titles" class="groupTitle" multiple>
+                    <optgroup label="Technologies">
+                        <option label="Web Master"></option>
+                        <option label="Database Administrator"></option>
+                        <option label="Computer-aided design"></option>
+                    </optgroup>
+                    <optgroup label="Finance">
+                        <option label="Economie Planning"></option>
+                        <option label="Management acounting"></option>
+                        <option label="Budgeting and planning"></option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label>Salary</label> <input type="range" min="0" max="100" step="1">
+            </p>
+            <p>
+                <input type="text" placeholder="Tell us about yourself..." class="personal-information">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Contact information</legend>
+            <p> <label>Site</label> <input type="text"> </p>
+            <p> <label>Email</label> <input type="text"> </p>
+            <p> <label>Phone</label> <input type="text"> </p>
+        </fieldset>
+        <p> <label>Password</label> <input type="password" required></p>
+        <p><input type="submit"> <input type="reset"></p>
+    </form>
+</body>
+
+
+</html>
