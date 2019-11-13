@@ -1,0 +1,26 @@
+table {
+        background-color: white;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        color: rgb(72, 89, 112);
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color: rgb(228,235,243);
+    padding: 7px;
+    border: 2px solid white; 
+}
+
+td:first-child {
+    text-transform: capitalize;
+}
+
+.light {
+    background-color: rgb(242, 246, 250);
+}
+
+.dark {
+   background-color: rgb(233, 238, 244);
+}
