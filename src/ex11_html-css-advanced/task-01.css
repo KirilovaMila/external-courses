@@ -5,7 +5,7 @@
     background: rgb(235, 15, 15);
     animation-name: loading;
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-direction: alternate-reverse;
     position: relative;
 }
@@ -81,7 +81,7 @@ display: flex;
         background: linear-gradient(violet, blueviolet);
     }
    30% {
-    transform: scale(10px) skew(50deg, 30deg);
+    transform: scale(1) skew(50deg, 30deg);
    }
     50% {
         transform: rotate(360deg);
