@@ -4,13 +4,12 @@ table{
 }
 
 td {
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 .field {
     position:relative;
     font-family: Arial;
-    font-weight:bold; 
     display:inline-block;
 }
 
@@ -18,15 +17,15 @@ label {
     position:absolute; 
     left:0; 
     top:0; 
-    color: black;
-    font-size:10px; 
+    transition: all .2s linear;
+    color:black;
+    font-size: 9px; 
 }
 
 input { 
-    margin-top:10px; 
+    margin-top: 5px;
     border:none;
     padding:8px;
-    padding-left:3px; 
 }
 
 input:invalid + label {
@@ -35,7 +34,8 @@ input:invalid + label {
 }
 
 input:valid + label { 
-    opacity:1; top:0; 
+    opacity:1;
+    top:0; 
 }
 
 input:focus { 
@@ -43,6 +43,5 @@ input:focus {
 }
 
 input:focus + label { 
-    color: blue; 
+    color:blue; 
 }
-
