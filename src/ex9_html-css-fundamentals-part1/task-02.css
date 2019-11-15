@@ -14,20 +14,20 @@ div {
         
 }
 
-.fr1 {
+.second-frame-01 {
     position: relative;
     background-color: rgb(111, 241, 176);
     margin: 60px;
 }
 
-.fr2 {
+.second-frame-02 {
     position: absolute;
     background-color: rgb(52, 221, 128);
     top: -7px;
     left: -7px;
 }
 
-.fr3 {
+.second-frame-03 {
     position: absolute;
     background-color: rgb(3, 165, 97);
     top: -7px;
