@@ -1,49 +1,42 @@
 let Calculator = {
 
-    construtor(a = 0) {
-        this.a = a
+    a: 0,
+
+    add: function add(b) {
+        if (b !== undefined) {
+            Calculator.a += b;
+        }
+        return add;
     },
 
-    add: function result(b) {
-        if (b === undefined) {
-            return result;
+    subtract: function subtract(b) {
+        if (b !== undefined) {
+            Calculator.a -= b;
         }
-        Calculator.a += b;
-        return result
+        return subtract;
     },
 
-    subtract: function result(b) {
-        if (b === undefined) {
-            return result;
+    divide: function divide(b) {
+        if (b !== undefined && b !== 0) {
+            Calculator.a /= b;
         }
-        Calculator.a -= b;
-        return result
+        return divide;
+
     },
 
-    divide: function result(b) {
-        if (b === undefined) {
-            return result;
+    multiply: function multiply(b) {
+        if (b !== undefined) {
+            Calculator.a *= b;
         }
-        if (b !== 0 ) {
-        Calculator.a /= b;
-        }
-        return result
-    },
-
-    multiply: function result(b) {
-        if (b === undefined) {
-            return result;
-        }
-        Calculator.a *= b;
-        return result
+        return multiply
     },
 
     getResult: function () {
-        return this.a
+        return Calculator.a
     },
     reset: function () {
-        this.a = 0
+        Calculator.a = 0
     },
 };
 
-module.exports = Calculator
+module.exports = Calculator;
