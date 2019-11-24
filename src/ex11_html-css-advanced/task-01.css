@@ -1,0 +1,96 @@
+.loader {
+    margin: 50px;
+    width: 80px;
+    height: 80px;
+    background: rgb(235, 15, 15);
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+@keyframes loading {
+    50% {
+        transform: scale(0) rotate(360deg);
+    }
+}
+
+.ball-area {
+display: flex;
+}
+
+.block1 {
+    margin: 0 25px;
+    position: relative;
+    background-color: blueviolet;
+    width: 3px;
+    height: 80px;
+}
+
+.block2 {
+    margin: 0 25px;
+    position: relative;
+    left: 100px;
+    background-color: blueviolet;
+    width: 3px;
+    height: 80px;
+    
+}
+
+.ball {
+    margin: 12.50px 0;
+    position: relative;
+    background-color: yellowgreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: jumping-ball;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes jumping-ball {
+    0%   { transform: translate(0, 0); }
+
+    100%  { transform: translate(100px, 0); }
+  
+}
+
+.animation {
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 50%;
+        background: linear-gradient(yellow, green) 
+    }
+    10% {
+        border-radius: 0;
+    }
+    20% {
+        background: linear-gradient(violet, blueviolet);
+    }
+   30% {
+    transform: scale(1) skew(50deg, 30deg);
+   }
+    50% {
+        transform: rotate(360deg);
+    }
+    70% {
+        background: linear-gradient(red, blue);
+    }
+    100% {
+        border-radius: 50%;
+    }
+
+}
